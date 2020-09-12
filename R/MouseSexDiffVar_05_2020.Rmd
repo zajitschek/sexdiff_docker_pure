@@ -38,7 +38,7 @@ always_allow_html: yes
 
 ```{r packages1, echo = FALSE, eval = TRUE, messages = FALSE}
 library(pacman)
-pacman::p_load(readr, dplyr,metafor, devtools, purrr, tidyverse, tidyr, tibble, kableExtra, robumeta, ggpubr, ggplot2, png, grid, here, knitr, pander, splus2R)
+pacman::p_load(bookdown, readr, dplyr,metafor, devtools, purrr, tidyverse, tidyr, tibble, kableExtra, robumeta, ggpubr, ggplot2, png, grid, here, knitr, pander, splus2R)
 ```
 
 # General Introduction

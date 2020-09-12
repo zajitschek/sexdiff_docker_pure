@@ -1,6 +1,7 @@
 ## Loads an R image, based on the rocker 'geospatial' image
 FROM rocker/tidyverse:3.6.0
 
+## Loads R code and data
 RUN mkdir -p /usr/src/Data
 RUN mkdir -p /usr/src/R
 COPY ./Data /usr/src/Data
